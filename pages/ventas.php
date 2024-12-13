@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Next Home</title>
+    <title>En Venta - Next Home</title>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.2/dist/flowbite.min.js"></script>    
 </head>
@@ -11,8 +11,8 @@
     <!--Header y Nav-->
     <nav class="bg-gray-900 border-gray-200">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="./index.php" class="flex items-center space-x-3 rtl:space-x-reverse">
-                <img src="images/Next Home Real State logo.png" class="h-20" alt="Logo Empresa" />
+            <a href="../index.php" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="../images/Next Home Real State logo.png" class="h-20" alt="Logo Empresa" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Next Home</span>
             </a>
             <button data-collapse-toggle="navbar-multi-level" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-multi-level" aria-expanded="false">
@@ -24,7 +24,7 @@
             <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
                 <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                     <li>
-                        <a href="./index.php" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Inicio</a>
+                        <a href="../index.php" class="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Inicio</a>
                     </li>
                     <li>
                             <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" class="flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent">Propiedades<svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
@@ -34,10 +34,10 @@
                         <div id="dropdownNavbar" class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
                             <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownLargeButton">
                                 <li>
-                                    <a href="./pages/ventas.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">En Venta</a>
+                                    <a href="../pages/ventas.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">En Venta</a>
                                 </li>
                                 <li>
-                                <a href="./pages/alquileres.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Alquileres</a>
+                                <a href="../pages/alquileres.php" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Alquileres</a>
                                 </li>
                             </ul>
                         </div>
@@ -50,30 +50,21 @@
                     </li>
                 </ul>
             </div>
-            <a href="./login/login.php" class="boton-sesion-admin">
+            <a href="../login/login.php" class="boton-sesion-admin">
             <button type="button" class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">Iniciar Sesion</button>
             </a>
         </div>
     </nav>
 
-    <!--Opciones-->
-    <div class="flex w-full">
-        <div class="relative w-1/2"> 
-            <img src="images/depto233.png" alt="Alquileres" class="object-cover w-full h-full"> 
-            <a href="./pages/alquileres.php"><button class="absolute inset-0 flex items-center justify-center w-full h-full text-2xl font-bold text-white transition bg-black bg-opacity-50 hover:bg-opacity-75">Alquileres</button></a>
-        </div> 
-        <div class="relative w-1/2"> 
-            <img src="images/casa6.avif" alt="Venta" class="object-cover w-full h-full"> 
-            <a href="./pages/ventas.php"><button class="absolute inset-0 flex items-center justify-center w-full h-full text-2xl font-bold text-white transition bg-black bg-opacity-50 hover:bg-opacity-75">Venta</button></a> 
-        </div> 
+    <div class="self-center justify-center text-center mb-8">
+        <h1 class="text-4xl font-bold text-center mb-6">Propiedades en Venta</h1>
     </div>
-
 
     <!-- Grid Casas-->
     <div class="m-8 p-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-auto ">
         <?php
             $conexion = mysqli_connect("127.0.0.1:3306", "root", "", "proyectophp");
-            $seleccionarTodo = "SELECT * FROM propiedad";
+            $seleccionarTodo = "SELECT * FROM propiedad WHERE contrato_propiedad = 'venta'";
             $resultadoSelecTodo = mysqli_query($conexion, $seleccionarTodo);
             while ($unaFila = mysqli_fetch_assoc($resultadoSelecTodo)) {
                 echo "
@@ -114,12 +105,11 @@
             }
         ?>
     </div>
-
     <!--Formulario contacto-->
-    <div id="formulario-contacto" class="grid grid-cols-2 gap-auto m-auto items-center justify-center w-full p-4 py-6 lg:py-8 bg-gray-800">
+    <div class="grid grid-cols-2 gap-auto m-auto items-center justify-center w-full p-4 py-6 lg:py-8 bg-gray-800">
         
-        <div class="block max-w-md p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <img src="images/Next Home Real State logo.png" class="h-20" alt="Logo Empresa" />
+        <div class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+            <img src="../images/Next Home Real State logo.png" class="h-20" alt="Logo Empresa" />
             <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Contactate con nosotros</h5>
             <p class="font-normal text-gray-700 dark:text-gray-400">Completá el formulario con tu consulta y uno de nuestros representantes se comunicará a la brevedad para resolver tus dudas.</p>
         </div>
@@ -152,22 +142,18 @@
             <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Enviar</button>
         </form>   
     </div>
-
     <!--Footer-->
     <footer class="bg-gray-900">
         <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
             <div class="md:flex md:justify-between">
-            <div class="grid mb-6 md:mb-0">
-                <a href="./index.php" class="flex items-center">
-                    <img src="images/Next Home Real State logo.png" class="h-8 me-3" alt="FlowBite Logo" />
+            <div class="mb-6 md:mb-0">
+                <a href="../index.php" class="flex items-center">
+                    <img src="../images/Next Home Real State logo.png" class="h-8 me-3" alt="FlowBite Logo" />
                     <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Next Home</span>
                 </a>
             </div>
-            <div class="grid mb-6 md:mb-0"> 
-                <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">Desarrollado por Joaquin Agraso</span>
-            </div>
             <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                <div>
+            <div>
                     <ul class="text-gray-500 dark:text-gray-400 font-medium">
                         <li class="mb-4">
                             <a href="https://www.linkedin.com/in/joaquin-agraso-a45986150" class="hover:underline">LinkedIn</a>
